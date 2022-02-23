@@ -1,0 +1,21 @@
+body{
+    background-image:url("background.jpg") ;
+    background-size: cover ;
+    background-position: center ;
+}
+.head{
+    width: 100%;
+    margin-top: 0px ;
+    font-size: 22px;
+}
+
+canvas{
+    animation-name: ani;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ani {
+    from{box-shadow: 3px 3px 30px orange}
+    to{box-shadow: 3px 3px 30px red}
+}
